@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1000px;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dtm-score,
+.dtm-check-buttun {
+  display: block;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dtm-checkbox-wrapper {
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.small-p,
+.dtm-result {
+  text-align: center;
+}
+
+.success {
+  background-color: rgb(160, 211, 160);
+}
+
+.warning {
+  background-color: rgb(175, 175, 81);
+}
+
+.danger {
+  background-color: rgb(233, 166, 166);
+}

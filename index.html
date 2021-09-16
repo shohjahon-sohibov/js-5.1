@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DTM</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <form class="dtm-form" action="https://echo.htmlacademy.ru" method="POST">
+      <div>
+        <input class="dtm-score" name="score" step="0.1" max="189" placeholder="189"
+          aria-label="Ballni kiriting" aria-describedby="score-input-info" required />
+
+        <div class="dtm-checkbox-wrapper">
+          <input class="dtm-checkbox" type="checkbox" />
+          <label for="">Tanish bilish</label>
+        </div>
+
+        <p class="small-p" id="score-input-info">
+          Maydonga faqat 0-189orasidagi sonni kiriting
+        </p>
+      </div>
+
+      <button class="dtm-check-buttun">Tekshirish</button>
+
+      <p class="dtm-result info-p"></p>
+    </form>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
